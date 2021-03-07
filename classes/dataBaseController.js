@@ -1,4 +1,4 @@
-const fsPromises = require("fs/promises");
+const fsPromises = require("fs").promises;
 module.exports.createDataBase = createDataBase;
 
 function createDataBase(dataDirectory, dataTemplateDirectory, comparisonKey) {
